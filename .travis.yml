@@ -8,6 +8,7 @@ before_install:
 script:
   - docker run -e CI=true vilusluc/docker-react npm run test
 
+
 deploy:
   provider: elasticbeanstalk
   region: "ca-central-1"
